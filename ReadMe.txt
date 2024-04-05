@@ -6,8 +6,7 @@ Following the documentation for the borb library (https://github.com/jorisschell
 I finished up the current iteration on 04/04/2024
 I learned to batch add to a layout, as evidenced by the reserved spaces section:
 
-```
-    # Header for reserved spaces
+``` # Header for reserved spaces
     layout.add(Paragraph("Space Reserved (Check all that apply):",horizontal_alignment=Alignment.LEFT,font="Helvetica", font_size=Decimal(12)))
     # Space(s) Reserved
     layout.add(
