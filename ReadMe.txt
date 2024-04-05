@@ -6,7 +6,8 @@ Following the documentation for the borb library (https://github.com/jorisschell
 I finished up the current iteration on 04/04/2024
 I learned to batch add to a layout, as evidenced by the reserved spaces section:
 
-``` # Header for reserved spaces
+~~~ python
+ # Header for reserved spaces
     layout.add(Paragraph("Space Reserved (Check all that apply):",horizontal_alignment=Alignment.LEFT,font="Helvetica", font_size=Decimal(12)))
     # Space(s) Reserved
     layout.add(
@@ -24,5 +25,5 @@ I learned to batch add to a layout, as evidenced by the reserved spaces section:
         .set_padding_on_all_cells(Decimal(2),Decimal(2),Decimal(0),Decimal(0))
         .no_borders()
     )
-```
+~~~
 As I continue to learn this library I hope to further update the formatting of the page. If I decide to return to a word editor to finish my task, I will periodically return to practice my Python.
